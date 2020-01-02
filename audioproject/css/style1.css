@@ -1,0 +1,42 @@
+body{
+	background-image: url(../images/classroom.jpg);
+	animation: changePicture 27s;
+	background-size: 100%;
+}
+#button{
+	position: fixed;
+	top: 1%;
+	left: 1%;
+}
+#backbutton{
+	position: fixed;
+	top: 85%;
+	left: 85%;
+}
+@-webkit-keyframes change{
+	from{
+      background-image: url(../images/classroom.jpg);
+	}
+	to{
+		background-image: url(../images/desk.jpg);
+
+	}
+
+}
+@keyframes change{
+	from{
+		background-image: url(../images/classroom.jpg);
+ 	}
+	to{
+       background-image: url(../images/desk.jpg);
+	}
+}
+
+@keyframes rotate{
+	from{
+
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}

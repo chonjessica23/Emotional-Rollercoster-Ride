@@ -1,0 +1,94 @@
+body{
+	background-image: url(../images/background.jpg);
+	background-size: 100%;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}
+#Title{
+	text-align: center;
+	font-size: 60px;
+}
+#introduction{
+	text-align: center;
+	font-size: 40px;
+}
+#stressedout{
+	position: fixed;
+	top: 60%;
+	left: 10%;	
+}
+
+#title1{
+	position: fixed;
+	top: 60%;
+	left: 10.5%;
+	display:none;
+	font-size: 30px;
+}
+
+#happy{
+	position: fixed;
+	top: 60%;
+	left: 25%;	
+
+}
+#title2{
+	position: fixed;
+	top: 60%;
+	left: 29%;
+	display:none;
+	font-size: 30px;
+
+}
+
+#anger{
+	position: fixed;
+	top: 60%;
+	left: 40%;	
+
+}
+#title3{
+	position: fixed;
+	top: 60%;
+	left: 44%;
+	display:none;
+	font-size: 30px;
+
+}
+
+#fear{
+	position: fixed;
+	top: 60%;
+	left: 55%;	
+
+}
+#title4{
+	position: fixed;
+	top: 60%;
+	left: 60%;
+	display:none;
+	font-size: 30px;
+
+}
+
+#sad{
+	position: fixed;
+	top: 60%;
+	left: 70%;	
+
+}
+#title5{
+	position: fixed;
+	top: 60%;
+	left: 75%;
+	display:none;
+	font-size: 30px;
+
+}
+
+#citation {
+	text-align: center;
+	font-size: 20px;
+	color: yellow;
+
+}

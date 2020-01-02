@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emotions and Sound</title>
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+
+	<h1 id="Title">An Emotional Rollercoaster Ride</h1>
+    <div id="introduction"> Leah and I were interested by the idea that small, normal events in life can greatly influence how you feel. We wanted to encompass these emotions through sound, and we hope you enjoy!
+As Katy Perry once said, <i>dont be afraid to catch feels~</i>, click on the images to explore how a typical day in the life of Jessica affects her emotions!</div>
+
+   <audio id="button1">
+   	<source src="audio/stressedbutton.wav" type="audio/wav" >
+   </audio>
+   <audio id="button2">
+   	<source src="audio/happybutton.wav" type="audio/wav">
+   </audio>
+   <audio id="button3">
+   	<source src="audio/angrybutton.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="button4">
+   	<source src="audio/fearbutton.wav" type="audio/wav">
+   </audio>
+   <audio id="button5">
+   	<source src="audio/sadbutton.wav" type="audio/wav">
+   </audio>
+  <div>
+	<img src="images/stressed.jpg" onmouseover="change1()" onmouseout="quit1()" width="200" height="150" id="stressedout" onclick="emotion1()">
+
+	<h4 id="title1">Stressed Out!</h4>
+	</div>
+
+	<div>
+		<img src="images/happy.jpg" onmouseover="change2()" onmouseout="quit2()" width="200" height="150" id="happy" onclick="emotion2()">
+		<h4 id="title2">Happy!</h4>
+	</div>
+
+	<div>
+		<img src="images/anger.jpg" onmouseover="change3()" onmouseout="quit3()" width="200" height="150" id="anger" onclick="emotion3()">
+		<h4 id="title3">Angry!</h4>
+	</div>
+
+	<div>
+		<img src="images/fear.jpg" onmouseover="change4()" onmouseout="quit4()" width="200" height="150" id="fear" onclick="emotion4()">
+		<h4 id="title4">Fear!</h4>
+	</div>
+
+	<div>
+		<img src="images/rain2.jpg" onmouseover="change5()" onmouseout="quit5()" width="200" height="150" id="sad" onclick="emotion5()">
+		<h4 id="title5">Sad!</h4>
+	</div>
+
+	<div id="citation" onclick="clickFunction()">
+		<p>Citations</p>	
+	</div>
+
+
+</body>
+<script type="text/javascript" src="js/homepage.js">
+	
+</script>
+</html>

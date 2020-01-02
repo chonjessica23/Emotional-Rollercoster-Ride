@@ -1,0 +1,50 @@
+body{
+	background-image: url(../images/stressed2.jpg);
+	background-size: 100%;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	width:100%;
+	height: 100%;
+}
+
+#button{
+	position: fixed;
+	top: 5%;
+	left: 5%;
+
+}
+#backbutton{
+	position: fixed;
+	top: 85%;
+	left: 85%;
+}
+
+@keyframes change{
+	from{
+       background-image: url(../images/stressed2.jpg);
+	}
+	to{
+		background-image: url(../images/stressed1.jpg);
+
+	}
+
+}
+@-webkit-keyframes change{
+	from{
+      background-image: url(../images/stressed2.jpg);
+	}
+	to{
+		background-image: url(../images/stressed1.jpg);
+
+	}
+
+}
+
+@keyframes rotate{
+	from{
+
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}

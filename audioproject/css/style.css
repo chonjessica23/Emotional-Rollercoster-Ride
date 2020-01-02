@@ -1,0 +1,41 @@
+body{
+	background-image: url(../images/walking.jpg);
+	animation: changePicture 25s;
+	background-size: 100%;
+}
+#button{
+	position: fixed;
+	top: 1%;
+	left: 1%;
+}
+#backbutton{
+	position: fixed;
+	top: 85%;
+	left: 85%;
+}
+@keyframes change{
+	from{
+		background-image: url(../images/walking.jpg);
+ 	}
+	to{
+       background-image: url(../images/window.jpg);
+	}
+}
+@-webkit-keyframes change{
+	from{
+      background-image: url(../images/walking.jpg);
+	}
+	to{
+		background-image: url(../images/window.jpg);
+
+	}
+
+}
+@keyframes rotate{
+	from{
+
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}

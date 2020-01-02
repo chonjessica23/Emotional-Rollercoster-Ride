@@ -1,0 +1,47 @@
+body{
+	background-image: url(../images/happy1.jpg);
+	background-size: 100%;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	/*animation: change 2s infinite linear;*/
+}
+
+#button{
+	position: fixed;
+	top: 1%;
+	left: 1%;
+}
+#backbutton{
+	position: fixed;
+	top: 85%;
+	left: 85%;
+}
+@-webkit-keyframes change{
+	from{
+      background-image: url(../images/happy1.jpg);
+	}
+	to{
+		background-image: url(../images/happy2.jpg);
+
+	}
+
+}
+@keyframes change{
+	from{
+      background-image: url(../images/happy1.jpg);
+	}
+	to{
+		background-image: url(../images/happy2.jpg);
+
+	}
+
+}
+
+@keyframes rotate{
+	from{
+
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
